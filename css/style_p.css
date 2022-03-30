@@ -1,0 +1,28 @@
+#p1{
+    color: orange;
+    font-size: 16px;
+}
+#p2{
+    color:cornsilk;
+    font-size: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.text-large{
+    font-size: 200%;
+}
+.text-red{
+    color: red;
+}
+.text-blue{
+    color: blue;
+}
+a:hover{
+    color:mediumaquamarine; 
+    font-size:200%;
+}
+input:focus{ 
+    background-color: cyan;
+    font-size: center;
+}
