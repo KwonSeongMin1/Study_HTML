@@ -17,10 +17,11 @@ body{
     height: 44px;
 }
 .name{
-    position: relative;
+    position:relative;
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 30px;
+    text-align: center;
 }
 .form{
     background-color: white;
