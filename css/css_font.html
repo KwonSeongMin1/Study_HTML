@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .font-size-40 {
+                font-size: 40px;
+            }
+            .font-size-2x{
+                font-size: 2.0em;
+            }
+            .font-size-150ps{
+                font-size: 150%;
+            }
+            .font-size-large{
+                font-size: large;
+            }
+
+            .serif{
+                font-family: "Times New Roman", Times, serif
+            }
+            .sans-serif{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .monospace{
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            .button{
+                width:150px;
+                height: 70px;
+                background-color: #FF6A00;
+                border-radius: 30px;
+                box-shadow: 5px 5px 5px #A9A9A9;
+            }
+            .button > a{
+                display: block;
+                font: italic bold 2em/70px Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <p>default font size: 16px</p>
+        <p class='font-size-40'>font-size: 40px</p>
+        <p class='font-size-2x'>font-size: 2.0em</p>
+        <p class='font-size-150ps'>font-size: 150ps</p>
+        <p class='font-size-large'>font-size: large</p>
+        <hr>
+        <p class="serif">Times New Roman font.</p>
+        <p class="sans-serif">Arial font.</p>
+        <p class="monospace">Courier New font.</p>
+        <div class="button">
+            <a href="#">Click</a>
+        </div>
+    </body>
+</html>
