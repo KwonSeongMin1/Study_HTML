@@ -2,14 +2,91 @@
 <html>
     <head>
         <title>Naver_SignUp</title>
+        <link rel="stylesheet" href="/Users/gwonseongmin/Desktop/Study_HTML/css/naver_signup.css">
     </head>
     <body>
-        <div class="header">
-            <p>NAVER</p>
+        <div id="header">
+            <a href="https://www.naver.com/" target="_blank" title="naver">
+                <img src="/Users/gwonseongmin/Desktop/Study_HTML/naver_logo.png" id="logo">
+            </a>
         </div>
-        <div class="name">
-            <p>아이디</p>
-            <input type="text" placeholder="@naver.com" align="right">
+        <div>
+            <p class="name">아이디
+                <input type="text" class="form">
+            </p>
+            
         </div>
+        <div>
+            <p class="name">비밀번호
+            <input type="password" class="form">
+            </p>
+        </div>
+        <div>
+            <p class="name">비밀번호 재확인
+            <input type="password" class="form">
+            </p>
+        </div>
+        <br>
+        <div>
+            <p class="name">이름
+            <input type="text" class="form">
+            </p>
+        </div>
+        <div>
+            <p class="name">생년월일
+            <input type="text" maxlength="4" placeholder="년(4자)" class="birthform">
+            <select name="month" class="birthform">
+                <option value="month" selected>월</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <input type="text" maxlength="2" placeholder="일" class="birthform">
+            </p>
+        </div>
+        <div>
+            <p class="name">성별
+            <select name="sex" class="form">
+                <option value="choice">선택</option>
+                <option value="man">남자</option>
+                <option value="woman">여자</option>
+                <option value="not_choice">선택 안함</option>
+            </select>
+            </p>
+        </div>
+        <div>
+            <p class="name">본인 확인 이메일<sub>(선택)</sub>
+            <input type="text" placeholder="선택입력" class="form">
+            </p>
+        </div>
+        <br>
+        <div>
+            <p class="name">휴대전화
+            <select name="country" class="form">
+                <option value="kor">대한민국 +82</option>
+                <option value="jap">일본 +81</option>
+            </select>
+            <br>
+            <input type="text" placeholder="전화번호 입력" class="form">
+            <button type="button" class="cerform">인증번호 받기</button><br>
+            <input type="text" placeholder="인증번호 입력하세요" class="cerinputform" disabled>
+            </p>
+        </div>
+        <br>
+        <button type="button" class="signform">가입하기</button>
+        <br>
+        <footer>
+            이용약관 | <b>개인정보처리방침</b> | 책임의 한계와 법적고지 | 회원정보 고객센터<br>
+            Naver Copyright <b>Naver Corp.</b> All Right Reserved.
+        </footer>
     </body>
 </html>

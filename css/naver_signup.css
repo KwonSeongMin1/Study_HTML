@@ -1,0 +1,74 @@
+html{
+    height: 100%;
+    text-align: center;
+}
+body{
+    background-color:#F5F6F7;
+    margin: 0;
+    height: 100%;
+}  
+#header{
+    text-align: center;
+}
+#logo{
+    padding-top: 62px;
+    padding-bottom: 10px;
+    width: 240px;
+    height: 44px;
+}
+.name{
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.form{
+    background-color: white;
+    border: 1px solid #DBDADA;
+    position: relative;
+    width: 450px;
+    height: 50px;
+    top: 40px;
+    right: 40px;
+}
+.form:focus{
+    outline: 1px solid #03C75B;
+}
+.birthform{
+    background-color: white;
+    border: 1px solid #DBDADA;
+    position: relative;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    top: 40px;
+    right: 40px;
+}
+.cerform{
+    background-color: #03C75B;
+    border: 1px solid #0CBF57;
+    position: relative;
+    height: 50px;
+    color: white;
+}
+.cerinputform{
+    background-color: #F5F6F7;
+    border: 1px solid #DBDADA;
+    position: relative;
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    top: 40px;
+    right: 40px;
+}
+.signform{
+    background-color: #03C75B;
+    border: 1px solid #0CBF57;
+    position: relative;
+    width: 450px;
+    height: 55px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
