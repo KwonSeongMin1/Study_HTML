@@ -1,0 +1,48 @@
+body{
+    background-color: #ffadd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 70px);
+    grid-auto-rows: 70px;
+    grid-gap: 10px;
+}
+input[value="+"] {
+    grid-column: 4;
+    grid-row: 5/7;
+}
+input[type="text"]{
+    grid-column: 1/5;
+    border: 0 solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 25px;
+    padding-right: 5px;
+}
+input[type=text]:focus {
+    outline: none;
+}
+input[type=button] {
+    border: 0 solid black;
+    border-radius: 5px;
+    margin: 1px 1px 4px 1px;
+    font-size: 25px;
+}
+input[type=button]:hover {
+    border: 1px solid black;
+}
+input[type=button]:active {
+    filter: invert(100%);
+}
+#ac {
+    background-color: rgb(255, 128, 128);
+}
+#operator {
+    background-color: rgb(171, 171, 171);
+}
