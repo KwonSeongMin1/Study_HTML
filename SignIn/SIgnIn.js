@@ -12,3 +12,4 @@ function check(){
         alert("로그인 성공");
     }
 }
+// javascript
