@@ -1,0 +1,45 @@
+body{
+    background-color: #ffadd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input[type=text]{
+    width:295px;height:70px;
+    border: 0 solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size:25px;
+    padding-right: 5px;
+}
+input[type=text]:focus{
+    outline: none;
+}/* 테두리 삭제 */
+input[type=button]{
+    width:70px;height:70px;
+    border:0 solid black;
+    border-radius: 5px;
+    margin:1px 1px 4px 1px;
+    font-size:25px;
+}
+input[type=button]:hover{
+    border:1px solid black;
+}
+input[type=button]:active {
+    filter: invert(100%);   
+}
+/* 색상 반대 */
+#ac{
+    background-color: rgb(255, 128, 128);
+}
+#operator{
+    background-color: rgb(171, 171, 171);
+}
+input[value="+"]{
+    position: relative;
+    left: 228px;
+    bottom: 150px;
+    height:145px;
+}
